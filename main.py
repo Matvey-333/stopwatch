@@ -10,6 +10,6 @@ total_seconds = minutes * 60 + seconds
 while total_seconds > 0:
     mins, secs = divmod(total_seconds, 60)
     print(f"Осталось: {mins} минут {secs} секунд")
-    time.sleep(1)  # Ожидание 1 секунду
+    time.sleep(1)
     total_seconds -= 
 print("Время вышло!")
